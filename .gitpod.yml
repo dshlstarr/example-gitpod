@@ -1,0 +1,9 @@
+
+vscode:
+  extensions:
+    - aaron-bond.better-comments
+    - CoenraadS.bracket-pair-colorizer
+    - golang.Go
+    - esbenp.prettier-vscode
+    - TabNine.tabnine-vscode
+    - asvetliakov.vscode-neovim
