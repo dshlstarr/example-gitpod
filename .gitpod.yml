@@ -7,6 +7,5 @@ vscode:
     - CoenraadS.bracket-pair-colorizer
     - golang.Go
     - esbenp.prettier-vscode
-    - TabNine.tabnine-vscode
     - asvetliakov.vscode-neovim
     - ms-azuretools.vscode-docker
