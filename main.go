@@ -5,16 +5,11 @@ import (
 )
 
 func main() {
-	print("test generic")
-	PrintIDAndSum("John", Sum[int32], 2, 3, 4)
-}
-
-func print[T any](arg T) {
-	fmt.Println(arg)
+	PrintIDAndSum("John", Sum[float32], 23.2, 3, 4)
 }
 
 type Numeric interface {
-	int | int32 | int64 | float32 | float64
+	~int | ~int32 | ~int64 | ~float32 | ~float64
 }
 
 type SumFn[T Numeric] func(...T) T
