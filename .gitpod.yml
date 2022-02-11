@@ -4,7 +4,6 @@ image:
 vscode:
   extensions:
     - aaron-bond.better-comments
-    - CoenraadS.bracket-pair-colorizer
     - golang.Go
     - esbenp.prettier-vscode
     - asvetliakov.vscode-neovim
