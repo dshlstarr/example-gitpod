@@ -17,3 +17,6 @@ RUN go install github.com/go-delve/delve/cmd/dlv@latest
 # Ensure it's now go1.18 using in the PATH
 ENV PATH="/home/gitpod/sdk/go1.18beta2/bin:${PATH}"
 ENV GOROOT="/home/gitpod/sdk/go1.18beta2"
+
+# Install the latest gopls for 1.18
+RUN go install golang.org/x/tools/gopls@latest
