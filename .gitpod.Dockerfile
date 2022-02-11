@@ -4,7 +4,7 @@ FROM gitpod/workspace-full
 RUN brew install neovim
 
 # Install Golang v1.18
-RUN go install golang.org/dl/go1.18beta2@latest
+RUN sudo go install golang.org/dl/go1.18beta2@latest
 RUN go1.18beta2 download
 
 # Install delve for debug
